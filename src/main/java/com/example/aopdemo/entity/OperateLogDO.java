@@ -1,0 +1,10 @@
+package com.example.aopdemo.entity;
+
+import lombok.Data;
+
+@Data
+public class OperateLogDO {
+    private Long orderId;
+    private String desc;
+    private String result;
+}
